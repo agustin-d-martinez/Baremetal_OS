@@ -74,7 +74,7 @@ MEMORY {
 }
 
 SECTIONS {
-	.output_section_name vma_addr : AT(lma_addr) {
+	.output_section_name vma_addr (attr): AT(lma_addr) {
 		. = ALIGN(4);
 		__start_var__ = .;
 		*(.section_name)
