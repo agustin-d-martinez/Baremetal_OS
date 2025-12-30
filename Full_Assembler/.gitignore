@@ -1,0 +1,15 @@
+# Archivos de salida a ignorar:
+*.out
+*.bin
+*.elf
+*.o
+*.txt
+.gbdinit
+
+# Carpetas a ignorar:
+obj/
+bin/
+lst/
+
+
+
